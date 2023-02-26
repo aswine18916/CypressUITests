@@ -1,0 +1,18 @@
+{   "baseUrl": "https://www.theguardian.com/tone/news",
+    "experimentalSessionAndOrigin": true,
+    "chromeWebSecurity": false,
+    "requestTimeout": 10000,
+    "screenshotOnRunFailure": true,
+    "skipCopyingScreenshots": true,
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}
