@@ -1,5 +1,6 @@
 {   "baseUrl": "https://www.theguardian.com/tone/news",
     "experimentalSessionAndOrigin": true,
+   
     "chromeWebSecurity": false,
     "requestTimeout": 10000,
     "screenshotOnRunFailure": true,
