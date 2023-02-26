@@ -2,12 +2,12 @@
 
 import GoogleSearch from "../pages/google-search";
 import GuardianNews from "../pages/guardian-news"
-
+import Utils from '../utilities/utils';
 let testdata='';
 const gn= new GuardianNews();
 const gs= new GoogleSearch();
 const ut=new Utils();
-import Utils, { acceptAllCookies, getFirstNewsHeadline, searchGoogle } from '../utilities/utils';
+
 
 describe('Verify the first news displayed is valid or not', () => {
   beforeEach(function()  {

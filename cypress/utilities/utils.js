@@ -100,9 +100,6 @@ checkOneoftheResultsIs(expected_source)
   cy.contains(expected_source).should('be.visible')
 }
      
-  //})
-  
-//}
 
 
 enterValueInInputFiledAndPressEnterKeyboard(element,value)
