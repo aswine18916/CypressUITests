@@ -6,9 +6,9 @@
  
 
  Framework Structure
-     Fixtures       ---> Test Data
-     Pages          ---> The elements in each page with which the test interacts
-     Integration    ---> The tests
-     Utilites       ---> All helper methods
-     cypress.json   ---> Cypress related flags including baseUrl,Screenshots
-     reports        ---> Mochawesome reports
+     Fixtures       ---> Test Data.
+     Pages          ---> The elements in each page with which the test interacts.
+     Integration    ---> The tests.
+     Utilites       ---> All helper methods.
+     cypress.json   ---> Cypress related flags including baseUrl,Screenshots.
+     reports        ---> Mochawesome reports.
