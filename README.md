@@ -1,4 +1,4 @@
-# jpmc
+# news
  Cypress version installed is 9.7.0
  Tests are configured to run in scripts in Chrome browser
  To run the test in headless mode, clean previous reports and generate the final reports run the command "npm run execute:headless"
